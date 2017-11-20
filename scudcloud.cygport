@@ -1,0 +1,15 @@
+inherit python3-distutils
+
+NAME="scudcloud"
+VERSION=1.63
+RELEASE=1
+CATEGORY="Net"
+SUMMARY="Unofficial desktop client for Slack"
+DESCRIPTION="ScudCloud is a non official open-source Linux desktop client app
+for Slack."
+HOMEPAGE="https://github.com/raelgc/scudcloud/"
+SRC_URI="${HOMEPAGE}/archive/v${VERSION}/scudcloud-v${VERSION}.tar.gz"
+
+ARCH=noarch
+
+REQUIRES="lato-fonts"
